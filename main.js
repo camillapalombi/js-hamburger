@@ -9,17 +9,17 @@ let hamburgerMenu = document.querySelector('.hamburger-menu');
     /*Apertura*/
 linkGenerate.addEventListener('click' , function(){
     
-    hamburgerMenu.style.display = 'block';
+    //hamburgerMenu.style.display = 'block';
 
-    //hamburgerMenu.classList.add('active');
+    hamburgerMenu.classList.add('active');
     
 })
 
     /*Chiusura*/
 linkClear.addEventListener('click' , function() {
    
-    hamburgerMenu.style.display = 'none';
+    //hamburgerMenu.style.display = 'none';
 
-    //hamburgerMenu.classList.remove('active');
+    hamburgerMenu.classList.remove('active');
 
 })
