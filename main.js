@@ -10,6 +10,8 @@ let hamburgerMenu = document.querySelector('.hamburger-menu');
 linkGenerate.addEventListener('click' , function(){
     
     hamburgerMenu.style.display = 'block';
+
+    //hamburgerMenu.classList.add('active');
     
 })
 
@@ -17,5 +19,7 @@ linkGenerate.addEventListener('click' , function(){
 linkClear.addEventListener('click' , function() {
    
     hamburgerMenu.style.display = 'none';
+
+    //hamburgerMenu.classList.remove('active');
 
 })
